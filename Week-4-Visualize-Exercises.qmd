@@ -150,6 +150,7 @@ ggplot(mpg, aes(x = displ, y = hwy)) +
 You can use this code template to make thousands of graphs with **ggplot2**.
 
 ```{r eval = FALSE}
+#| label: Final
 ggplot(data = <DATA>) +
   <GEOM_FUNCTION>(mapping = aes(<MAPPINGS>))
 ```
